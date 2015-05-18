@@ -81,10 +81,15 @@ chart.render();
 				interval:1,
 				suffix: "年"
 			},           
+	  toolTip: {
+				shared: true,
+				content: "<span style='\"'color: {color};'\"'><strong>{name}</strong></span> {y}"
+			},
       data: [
       {        
         type: "splineArea",
-        color: "rgba(255,0,0,.7)",
+        showInLegend: true,
+        color: "rgba(255,0,255,.7)",
         name: "南化水庫(每年五月)",
         dataPoints: [
         {x: 2005, y: 71.49},     
@@ -102,6 +107,7 @@ chart.render();
       },
       {        
         type: "splineArea",
+        showInLegend: true,
         name: "翡翠水庫(每年五月)",
         color: "rgba(0,255,0,.7)",
         dataPoints: [
