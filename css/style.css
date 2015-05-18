@@ -1,0 +1,20 @@
+#chartContainer{
+  position:absolute;
+  top :50px;
+
+}
+#third_chart{
+  position:absolute;
+  top :400px;
+
+}
+#second_chart{
+  position:absolute;
+  top :750px;
+
+}
+#fourth_chart{
+  position:absolute;
+  top :1100px;
+
+}
